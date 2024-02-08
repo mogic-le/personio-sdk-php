@@ -1,0 +1,29 @@
+{
+    "name": "brnbio/personio-sdk-php",
+    "description": "Personio SDK for PHP - Use Personio REST API in your PHP project",
+    "keywords": ["personio", "sdk", "api"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/brnbio/personio-sdk-php/issues"
+    },
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/collections": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "symfony/var-dumper": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Personio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Personio\\Test\\": "tests/"
+        }
+    }
+}
